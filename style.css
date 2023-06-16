@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: aqua;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  .converter {
+    margin-bottom: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+    
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: inline-block;
+    width: 40px;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+  }
+  
+  #error {
+    color: red;
+    margin-top: 10px;
+  }
+  
